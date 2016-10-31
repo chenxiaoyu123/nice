@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>nice家居</title>
+	<link rel="stylesheet" type="text/css" href="Css/index.css">
+</head>
+<body>
+<div class="introduce">
+	<p>Nice Furniture<p>
+	<P>Change Your Life</P>
+</div>
+<!-- <div class="slidebox">
+	<div class="hd">
+		<ul>
+			<li onMouseOver="ChangeImage(this.innerHTML)" id="li_1">1</li>
+			<li onMouseOver="ChangeImage(this.innerHTML)" id="li_2">2</li>
+			<li onMouseOver="ChangeImage(this.innerHTML)" id="li_3">3</li>
+		</ul>
+	</div>
+	<div class="bd" >
+		<img src="./Images/pic1.jpg" id="image">
+	</div>
+</div> -->
+</body>
+<script type="text/javascript" src="Javascript/jquery.js"></script>
+ <script type="text/javascript">
+	   $(document).ready(function(){
+		 	$('.introduce').fadeIn(2000);
+	  });
+/*	 var imagenumber=1;
+
+	 window.onload=function(){
+	 	//window.alert("ok");
+	 		setInterval(ImageChange,2000);
+	 }
+	 function ChangeImage(val){
+	 	var imagenumber=parseInt(val);
+	 	var path="./Images/pic"+imagenumber+".jpg";
+	 	if(imagenumber==1){
+	 		document.getElementById('image').setAttribute('src',path);
+	 		document.getElementById('li_1').className="xy";
+	 		document.getElementById('li_2').className="xy1";
+	 		document.getElementById('li_3').className="xy1";
+	 	}else if(imagenumber==2){
+	 		document.getElementById('image').setAttribute('src',path);
+	 		document.getElementById('li_2').className="xy";
+	 		document.getElementById('li_1').className="xy1";
+	 		document.getElementById('li_3').className="xy1";
+	 	}else if(imagenumber==3){
+	 		document.getElementById('image').setAttribute('src',path);	
+	 		document.getElementById('li_3').className="xy";
+	 		document.getElementById('li_1').className="xy1";
+	 		document.getElementById('li_2').className="xy1";
+	 	}
+	 }
+	 function ImageChange(){
+	 		imagenumber++;
+	 		var path="./Images/pic"+imagenumber+".jpg";
+	 		document.getElementById('image').setAttribute('src',path);
+	 		if(imagenumber==1){
+	 			document.getElementById('li_1').className="xy";
+	 			document.getElementById('li_2').className="xy1";
+	 			document.getElementById('li_3').className="xy1";
+	 		}
+	 		if(imagenumber==2){
+	 			document.getElementById('li_2').className="xy";
+	 			document.getElementById('li_1').className="xy1";
+	 			document.getElementById('li_3').className="xy1";
+	 		}
+			if(imagenumber==3){
+				document.getElementById('li_3').className="xy";
+	 			document.getElementById('li_1').className="xy1";
+	 			document.getElementById('li_2').className="xy1";
+	 			imagenumber=0;
+	 		}
+
+	 }
+</script> -->
+</html>
